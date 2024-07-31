@@ -18,7 +18,7 @@ const certifications = [
   },
   {
     title: "HTML5 & CSS3",
-    description: "Certification for Project Management skills.",
+    description: "Certification for HTML5 & CSS3 skills.",
     image: htmlcss,
     link: "https://www.pirple.com/certificates/bbocwfb8re",
   },
