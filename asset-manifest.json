@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio.com/static/css/main.eafb950a.css",
-    "main.js": "/portfolio.com/static/js/main.ecedfadd.js",
+    "main.css": "/portfolio.com/static/css/main.45b15f22.css",
+    "main.js": "/portfolio.com/static/js/main.bc73e74d.js",
     "static/js/453.1407b060.chunk.js": "/portfolio.com/static/js/453.1407b060.chunk.js",
     "static/media/mern-certificate.jpg": "/portfolio.com/static/media/mern-certificate.45289a56b9f769a7827e.jpg",
     "static/media/cpp.png": "/portfolio.com/static/media/cpp.1ad550cd285b4d7ad10e.png",
@@ -11,12 +11,12 @@
     "static/media/RUPAM-DP.jpg": "/portfolio.com/static/media/RUPAM-DP.954a1099b47713da3139.jpg",
     "static/media/javascript.png": "/portfolio.com/static/media/javascript.1a5ff0fd8768a010dc8e.png",
     "index.html": "/portfolio.com/index.html",
-    "main.eafb950a.css.map": "/portfolio.com/static/css/main.eafb950a.css.map",
-    "main.ecedfadd.js.map": "/portfolio.com/static/js/main.ecedfadd.js.map",
+    "main.45b15f22.css.map": "/portfolio.com/static/css/main.45b15f22.css.map",
+    "main.bc73e74d.js.map": "/portfolio.com/static/js/main.bc73e74d.js.map",
     "453.1407b060.chunk.js.map": "/portfolio.com/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eafb950a.css",
-    "static/js/main.ecedfadd.js"
+    "static/css/main.45b15f22.css",
+    "static/js/main.bc73e74d.js"
   ]
 }
