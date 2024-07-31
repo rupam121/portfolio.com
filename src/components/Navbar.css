@@ -1,0 +1,116 @@
+
+.navbar {
+  background-color: #282c34;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+
+.nav-links:hover {
+  background-color: #20b07e;
+  border-radius: 5px;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-icon {
+  display: none; /* Hide by default */
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: auto; /* Align to the right */
+}
+
+.nav-menu {
+  display: flex; /* Show menu on large screens */
+}
+
+/* When the menu is active (toggled) */
+.nav-menu.active {
+  display: flex;
+  flex-direction: column; /* Column layout for active state */
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 1024px) {
+  .nav-menu {
+    display: none; /* Hide menu by default on tablets and mobile */
+  }
+
+  .mobile-menu-icon {
+    display: block; /* Show hamburger icon on tablets and mobile */
+  }
+  .nav-menu.active {
+    display: flex; /* Show menu when active */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    gap: 15px;
+    width: 100%;
+    background-color: #61dafb;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  .nav-item {
+    margin-left: 0; /* Remove left margin on mobile */
+  }
+
+  .nav-menu.active {
+    display: flex; /* Show menu when active */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    gap: 5px;
+    width: 100%;
+    background-color: #61dafb;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,104 @@
+/* src/components/FrontPage.css */
+.front-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+  text-align: left;
+  padding: 20px; /* Added padding to avoid content touching edges */
+  box-sizing: border-box; /* Ensures padding doesn't affect the layout width */
+}
+
+.front-page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  padding: 20px;
+  max-width: 100%; /* Ensure container is responsive */
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't affect the container width */
+}
+
+.profile-pic-container {
+  margin-bottom: 20px; /* Margin for spacing on mobile */
+}
+
+.profile-pic {
+  width: 120px; /* Slightly smaller profile pic */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.intro {
+  text-align: center; /* Center text on smaller screens */
+  max-width: 100%; /* Ensure intro section is responsive */
+}
+
+.intro h1 {
+  font-size: 28px; /* Smaller font size for mobile */
+  margin: 0 0 10px;
+}
+
+.intro p {
+  font-size: 16px; /* Smaller font size for mobile */
+  margin: 0 0 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px; /* Slightly smaller font size for mobile */
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .intro h1 {
+    font-size: 24px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .intro h1 {
+    font-size: 20px;
+  }
+
+  .intro p {
+    font-size: 12px;
+  }
+
+  .cta-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,47 @@
+/* Contact.css */
+.container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 5rem;
+}
+
+.icon {
+  color: #000;
+  text-decoration: none;
+}
+
+.icon:hover {
+  color: #0073b1; /* Change color on hover for LinkedIn */
+}
+
+.icon:visited {
+  color: #000; /* Ensure visited links are the same color */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .header {
+    font-size: 20px;
+  }
+
+  .icons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .icon {
+    font-size: 1.5em;
+  }
+}

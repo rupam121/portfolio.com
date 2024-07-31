@@ -1,0 +1,51 @@
+/* Certification.css */
+.certification-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+  }
+  
+  .certification-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .certification-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certification-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .certification-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .certification-description {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+  
+  .certification-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .certification-link:hover {
+    text-decoration: underline;
+  }
+  
