@@ -1,0 +1,36 @@
+
+.internship-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .internship-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .internship-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .internship-item {
+    background: #a6f3f7;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .internship-item h3 {
+    margin-top: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .internship-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+  }
+  

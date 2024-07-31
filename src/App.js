@@ -7,6 +7,7 @@ import Projects from '../src/components/Projects';
 import Skills from '../src/components/Skills';
 import Contact from '../src/components/Contact';
 import Certification from './components/Certification';
+import InternshipSection from './components/InternshipSection';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <FrontPage />
       <About />
+      <InternshipSection />
       <Projects />
       <Skills />
       <Certification />
