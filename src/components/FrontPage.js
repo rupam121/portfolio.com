@@ -1,7 +1,7 @@
 // src/components/FrontPage.js
 import React from 'react';
 import './FrontPage.css';
-import profilePic from '../assets/RUPAM-DP.jpg'; // Make sure to replace with your actual profile image path
+import profilePic from '../assets/DP.jpg'; // Make sure to replace with your actual profile image path
 
 function FrontPage() {
   return (
