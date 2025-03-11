@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="container" id="contact">
       <h2 className="header">Contact Me</h2>
       <div className="icons">
-        <a href="mailto:rupamgiri.dev@gmail.com" className="icon">
+        <a href="mailto:rupamgiri16@gmail.com" className="icon">
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
         <a href="https://www.linkedin.com/in/rupamgiri/-linkedin/" target="_blank" rel="noopener noreferrer" className="icon">

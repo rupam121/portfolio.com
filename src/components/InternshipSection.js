@@ -4,9 +4,15 @@ import './InternshipSection.css';
 
 const internships = [
   {
+    company: 'FixNow IT Services Pvt Ltd',
+    role: 'Full Stack Developer',
+    duration: 'Jan 2025 - Mar 2025',
+    description: 'Designed, developed, and optimized scalable web applications, enhancing performance and user experience. Implemented full-stack solutions using modern frameworks and best practices, collaborating closely with cross-functional teams to deliver high-quality software.',
+  },
+  {
     company: 'Zebaq Pvt Ltd',
     role: 'Web Development Intern',
-    duration: 'May 2024 - Present',
+    duration: 'May 2024 - Aug 2024',
     description: 'Worked on developing and optimizing web applications.',
   },
   {
@@ -27,7 +33,7 @@ const internships = [
 const InternshipSection = () => {
   return (
     <section className="internship-section">
-      <h2>Internships</h2>
+      <h2>Experience/Internships </h2>
       <div className="internship-list">
         {internships.map((internship, index) => (
           <div key={index} className="internship-item">

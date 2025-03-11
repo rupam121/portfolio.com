@@ -7,7 +7,7 @@ function About() {
     <section className="about-section" id="about">
       <h2>About Me</h2>
 
-      <p>Hello! I'm <strong>Rupam Giri</strong>, a recent graduate with a Bachelor's degree in Computer Science and Engineering from Nalanda Institute of Technology, Bhubaneswar. I completed my degree with an impressive 8.08 SGPA and no backlogs, demonstrating my dedication and consistency towards achieving my goals.</p>
+      <p>I am a <strong>Full Stack Web Developer</strong> passionate about building scalable and efficient web applications. With experience in the <strong>MERN stack, and WordPress</strong>, I focus on creating responsive, high-performance websites that enhance user experience. My expertise includes frontend and backend development, SEO optimization, and database management. Constantly exploring new technologies, I strive to deliver innovative and robust digital solutions..</p>
 
       <h3>Skills</h3>
       <ul>

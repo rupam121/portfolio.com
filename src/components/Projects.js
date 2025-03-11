@@ -10,6 +10,15 @@ function Projects() {
         {/* Add your projects here */}
         <div className="project-card">
           {/* <img src="path/to/travel-app-image.jpg" alt="Travel App" className="project-image" /> */}
+          <h3>NEW PROJECT COMMING ...</h3>
+          <p>
+           Working on that.
+          </p>
+          {/* <a href="/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a> */}
+        </div>
+
+        <div className="project-card">
+          {/* <img src="path/to/travel-app-image.jpg" alt="Travel App" className="project-image" /> */}
           <h3>Travel App</h3>
           <p>
             A comprehensive travel application designed to enhance the user

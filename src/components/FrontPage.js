@@ -12,7 +12,17 @@ function FrontPage() {
         </div>
         <div className="intro">
           <h1>Hello, I'm Rupam Giri</h1>
-          {/* <p>I'm a MERN Stack Enthusias with experience in 6 Month Internship.</p> */}
+          <p>I'm a MERN Stack Enthusias with experience in 13 Month includes Internship.</p>
+          <p>📍 Krishnanpalya, Bangalore, Karnataka 560038</p>
+          <p>📞 +91 6370349476</p>
+          <p>✉️ <a href="mailto:rupamgiri4321@gmail.com">rupamgiri16@gmail.com</a></p>
+          <p>🔗
+            <a href="https://www.linkedin.com/in/rupamgiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+            {/* <a href="your-portfolio-url" target="_blank" rel="noopener noreferrer">Portfolio</a> | */}
+            <a href="https://leetcode.com/u/rupam_20/" target="_blank" rel="noopener noreferrer">Leetcode</a> |
+            <a href="https://github.com/rupam121" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
+
           <a href="#projects" className="cta-button">See My Work</a>
         </div>
       </div>
