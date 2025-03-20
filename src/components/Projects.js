@@ -4,6 +4,7 @@ import "./Projects.css";
 import quizApp from '../assets/quiz-app.png';
 import travelApp from '../assets/travel-app.png'
 import linkshortApp from '../assets/linkshort-App.png'
+import SMApp from '../assets/smapp.png'
 
 function Projects() {
   return (
@@ -11,6 +12,13 @@ function Projects() {
       <h2>My Projects</h2>
       <div className="project-cards">
         {/* Add your projects here */}
+        <div className="project-card">
+          <img src={SMApp} alt="Travel App" className="project-image" />
+          <h3>Social Media Dashboard</h3>
+          <p>Social Media Dashboard is a React-based web app that displays real-time follower counts and engagement stats from various social media platforms. </p>
+          <a href="https://social-media-dashboard-two-alpha.vercel.app/" className="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
         <div className="project-card">
           <img src={quizApp} alt="Travel App" className="project-image" />
           <h3>QUIZ APP</h3>
